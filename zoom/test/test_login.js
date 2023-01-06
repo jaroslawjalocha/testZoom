@@ -13,7 +13,7 @@ describe('Zoom website', () => {
         await expect(LoginPage.inputPassword).toBeDisplayed();
         await expect(LoginPage.inputUsername).toBeDisplayed();
         await expect(LoginPage.buttonSubmit).toBeDisplayed();
-        await LoginPage.login('cokox86673@prolug.com', 'Pol@nie2');
+        await LoginPage.login('kowalrafal1234@o2.pl', 'SilneHaslo12!@');
         await expect(browser).toHaveUrl('https://zoom.us/profile');
         await expect(SecurePage.iconProfil).toBeDisplayed();
     })
