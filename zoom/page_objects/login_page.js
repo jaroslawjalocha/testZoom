@@ -14,7 +14,7 @@ class LoginPage extends Page {
         return $('#js_btn_login');
     }
     get buttonClose() {
-        return $('//div[@id="onetrust-close-btn-container"]/button');
+        return $('#onetrust-close-btn-container > button');
     }
 
 

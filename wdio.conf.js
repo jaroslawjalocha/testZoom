@@ -5,10 +5,10 @@ exports.config = {
         './zoom/tests/**/*.js'],
         suites: {
             loginTest: [
-                './zoom/tests/test_login.js',
+                './zoom/test/test_login.js',
             ],
             buttonsTest: [
-                './zoom/tests/buttons.js',
+                './zoom/test/test_buttons.js',
             ]},
     
     exclude: [

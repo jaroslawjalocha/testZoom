@@ -1,5 +1,5 @@
-const StartPage = require('../pageobjects/start_page')
-const LoginPage = require('../pageobjects/login_page')
+const StartPage = require('../page_objects/start_page')
+const LoginPage = require('../page_objects/login_page')
 /*
 Test assumptions::
 - carried out on the google chrome browser
