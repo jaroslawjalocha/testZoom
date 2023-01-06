@@ -29,5 +29,3 @@ describe('Zoom website', () => {
         await expect(StartPage.buttonPhone).toHaveAttribute('href', 'tel:1.888.799.9666');
     })
 })
-
-
