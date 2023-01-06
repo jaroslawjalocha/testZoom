@@ -1,32 +1,32 @@
 const Page = require('./page');
 
 class LoginPage extends Page {
-    
-    get inputUsername () {
+
+    get inputUsername() {
         return $('#email');
     }
 
-    get inputPassword () {
+    get inputPassword() {
         return $('#password');
     }
 
-    get buttonSubmit () {
+    get buttonSubmit() {
         return $('#js_btn_login');
     }
-    get buttonClose (){
-        return $('//div[@id="onetrust-close-btn-container"]/button')
+    get buttonClose() {
+        return $('//div[@id="onetrust-close-btn-container"]/button');
     }
 
-   
-    async login (username, password) {
+
+    async login(username, password) {
         await this.inputUsername.setValue(username);
         await this.inputPassword.setValue(password);
         await this.buttonSubmit.click();
     }
 
-   
-    open () {
-        return super.open('login');
+
+    open() {
+        return super.open('signin#/login');
     }
 }
 
