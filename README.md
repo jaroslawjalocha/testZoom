@@ -9,3 +9,4 @@
 test_login.js - This test verifies a positive login path to the Zoom website.
 
 test_buttons.js - This test verifies whether after clicking on the individual 'Support', '1.888.799.9666', 'Request a Demo' buttons, we are redirected to the correct websites.
+
