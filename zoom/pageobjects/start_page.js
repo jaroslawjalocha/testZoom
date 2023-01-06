@@ -1,20 +1,20 @@
 const Page = require('./page');
 
 class StartPage extends Page {
-    
-    get buttonSupport () {
+
+    get buttonSupport() {
         return $('//ul[@class="list-inline pull-right"]/li[2]/a');
     }
-    get buttonIp () {
+    get buttonPhone() {
         return $('//ul[@class="list-inline pull-right"]/li[3]/a');
     }
-    get buttonReqADemo () {
-        return $('//ul[@class="list-inline pull-right"]/li[3]/a');
+    get buttonReqADemo() {
+        return $('//ul[@class="list-inline pull-right"]/li[4]/a');
     }
-    open () {
+    open() {
         return super.open('');
     }
-    
+
 }
 
 module.exports = new StartPage();

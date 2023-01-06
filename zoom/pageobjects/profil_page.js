@@ -1,8 +1,8 @@
 const Page = require('./page');
 
 class ProfilPage extends Page {
-    
-    get iconProfil () {
+
+    get iconProfil() {
         return $('#headerPic');
     }
 }
