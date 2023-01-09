@@ -13,8 +13,8 @@ class LoginPage extends Page {
     get buttonSubmit() {
         return $('#js_btn_login');
     }
-    get buttonClose() {
-        return $('#onetrust-close-btn-container > button');
+    get buttonAgree() {
+        return $('#onetrust-accept-btn-handler');
     }
 
 
