@@ -17,7 +17,12 @@ exports.config = {
     capabilities: [{
         maxInstances: 5,
         browserName: 'chrome',
-        acceptInsecureCerts: true
+        acceptInsecureCerts: true,
+        'goog:chromeOptions': {
+            prefs: {
+                'intl.accept_languages': 'eng,ENG'
+            }
+        }
     }],
     logLevel: 'info',
     bail: 0,
