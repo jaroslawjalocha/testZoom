@@ -11,7 +11,7 @@ describe('Zoom website', () => {
     it('check demo button', async () => {
         await StartPage.open();
         await browser.maximizeWindow();
-        await LoginPage.buttonClose.click();
+        await LoginPage.buttonAgree.click();
         await StartPage.buttonReqADemo.click();
         await expect(browser).toHaveUrl('https://explore.zoom.us/pl/livedemo/');
         await browser.back();
