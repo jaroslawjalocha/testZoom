@@ -11,7 +11,7 @@ describe('Zoom website', () => {
     it('log-in to zoom account', async () => {
         await LoginPage.open();
         await browser.maximizeWindow();
-        await LoginPage.buttonClose.click();
+        await LoginPage.buttonAgree.click();
         await expect(LoginPage.inputPassword).toBeDisplayed();
         await expect(LoginPage.inputUsername).toBeDisplayed();
         await expect(LoginPage.buttonSubmit).toBeDisplayed();
