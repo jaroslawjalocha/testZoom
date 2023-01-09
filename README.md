@@ -1,8 +1,8 @@
 ##How to install and run:
 1. Clone repository
 2. In CMD or terminal run command 'npm install'
-3. To run login test write command ''npx wdio run ./wdio.conf.js --suite loginTest'
-4. To run redirect test write command ''npx wdio run ./wdio.conf.js --suite buttonsTest' (Before starting the login test, you should set the credentials that you want to log in and use in the test in the login_data.js file)
+3. To run login test write command ''npx wdio run ./wdio.conf.js --suite loginTest' (Before starting the login test, you should set the credentials that you want to log in and use in the test in the login_data.js file)
+4. To run redirect test write command ''npx wdio run ./wdio.conf.js --suite buttonsTest'
 
 ##Test Description:
 
