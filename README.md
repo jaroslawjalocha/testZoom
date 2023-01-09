@@ -1,7 +1,7 @@
 # Preparation
 1. Clone repository
 2. In CMD or terminal run command 'npm install'
-3. Set correct credentials in file login_data.js to run login test.
+3. Set correct credentials in file zoom/tets_data/login_data.js to run login test.
 
 # How to install and run:
 1. To run login test write command ''npx wdio run ./wdio.conf.js --suite loginTest'
