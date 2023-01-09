@@ -1,12 +1,15 @@
-##How to install and run:
+# Preparation
 1. Clone repository
 2. In CMD or terminal run command 'npm install'
-3. To run login test write command ''npx wdio run ./wdio.conf.js --suite loginTest' (Before starting the login test, you should set the credentials that you want to log in and use in the test in the login_data.js file)
-4. To run redirect test write command ''npx wdio run ./wdio.conf.js --suite buttonsTest'
+3. Set correct credentials in file login_data.js to run login test.
 
-##Test Description:
+# How to install and run:
+1. To run login test write command ''npx wdio run ./wdio.conf.js --suite loginTest'
+2. To run redirect test write command ''npx wdio run ./wdio.conf.js --suite buttonsTest'
 
-test_login.js - This test verifies a positive login path to the Zoom website.
+# Test Description:
 
-test_buttons.js - This test verifies whether after clicking on the individual 'Support', '1.888.799.9666', 'Request a Demo' buttons, we are redirected to the correct websites.
+*test_login.js* - This test verifies a positive login path to the Zoom website.
+
+*test_buttons.js* - This test verifies whether after clicking on the individual 'Support', '1.888.799.9666', 'Request a Demo' buttons, we are redirected to the correct websites.
 
