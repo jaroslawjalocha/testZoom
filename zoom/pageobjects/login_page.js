@@ -14,7 +14,11 @@ class LoginPage extends Page {
         return $('#js_btn_login');
     }
     get buttonClose() {
+<<<<<<< HEAD:zoom/page_objects/login_page.js
+        return $('#onetrust-close-btn-container > button');
+=======
         return $('//div[@id="onetrust-close-btn-container"]/button');
+>>>>>>> a6aa3ac122b5a0f3ba5777d0a2eccb8b87e50d4b:zoom/pageobjects/login_page.js
     }
 
 
