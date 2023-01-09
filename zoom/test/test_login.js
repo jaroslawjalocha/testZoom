@@ -20,5 +20,3 @@ describe('Zoom website', () => {
         await expect(SecurePage.iconProfil).toBeDisplayed();
     })
 })
-
-
